@@ -68,6 +68,9 @@ const Index = () => {
               <span className="text-2xl font-bold text-gray-900">GreenHarvest Farm</span>
             </div>
             <div className="flex space-x-4">
+              <Link to="/auth">
+                <Button variant="outline">Sign In</Button>
+              </Link>
               <Link to="/store">
                 <Button variant="outline">Visit Store</Button>
               </Link>
@@ -91,9 +94,9 @@ const Index = () => {
             and online sales. Streamline your operations and grow your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/dashboard">
+            <Link to="/auth">
               <Button size="lg" className="w-full sm:w-auto">
-                Access Farm Dashboard
+                Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
